@@ -37,7 +37,7 @@ h3{
     text-align: center;
     margin-top: 50px;
 }
-.daftar-box{
+.booking-box{
     margin: auto;
     margin-left: 455px;
     width: 500px;
@@ -50,7 +50,7 @@ form{
     margin-bottom: 35px;
     margin-top: 10px;
 }
- .input{
+.input{
      width:400px;
      height: 40px;
      margin-top: 20px;
@@ -59,7 +59,7 @@ form{
      border-radius: 14px;
      outline: none;
  }
-   .button{
+.button{
     padding: 5px 10px;
     margin-top: 12px;
     background-color: #fbb732;
