@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 header{
     width: 100%;
@@ -32,6 +32,22 @@ ul li a:hover{
 }
 ul li ul li{
     display: none;
+}
+.nama{
+    margin-left: 100px;
+    color: #ffff;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.nama h1{
+    font-size: 16px;
+
+}
+.nama h2{
+    font-size: 16px; 
+}
+.nama h3{
+    font-size: 16px;
 }
 h3{
     text-align: center;
