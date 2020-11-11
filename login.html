@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html>
     <head>
-        <title>login page</title>
-        <link rel="stylesheet" href="style-login.css">  
-    </head>
+        <title>login</title>
+        <link rel="stylesheet" href="style-login.css">
+    </head>  
     <body>
         <header>
             <div class="main">
@@ -11,35 +11,44 @@
                     <img src="logo.png">
                 </div>
                 <ul>
-                    <li><a href="#">Beranda</a></li>
+                    <li><a href="beranda.html">Beranda</a></li>
                     <li><a href="#">Tentang Kami</a></li>
                     <li><a href="#">Wisata TOGA</a></li>
-                    <li><a href="#">Booking</a></li>
-                    <li><a href="#">Kontak</a></li>
-                    <li><a href="#">Profil</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                    <li><a href="#">Profil</a></li> 
                 </ul>
+                </div>
+                <div class="nama">
+                    <h1>Hogwarts Tourism</h1>
+                    <h2>and Education</h2>
+                    <h3>Village</h3>
+                </div>
             </div>
         </header>
-        <h3>Login</h3> 
+        <h4>Login</h4> 
         <div class="login-box">
-            <form> 
-                <input type="text" class="input" placeholder="Masukkan username Anda">
-                <input type="password" class="input" placeholder="Masukkan password">
+            <form name="login" method="POST" action="laman login.html"> 
+            <pre>
+                Username    : <input type="text" class="input" placeholder="Masukkan username Anda">
+                Password    : <input type="password" class="input" placeholder="Masukkan password">
                 <button type="submit" class="button">Masuk</button>
+                <br><a>Belum memiliki akun? </a><button type="submit" class="button2">Daftar</button></br>
+                </form>
+            </pre>
           </form>
-          <br>
-          <br>
-          <br>
         </div> 
-        <center> <p2>Belum memiliki akun? <br>
-        Silahkan mendaftar untuk mendapat tawaran menarik dari kami.</p2> </center>
-        <br>
-        <button type="submit" class="button2">Mendaftar</button>
     </body>
-    <footer>
+    <footer>        
+        <div class="booking">
+            <P>Booking sekarang untuk mendapatkan<br>penawaran terbaik!
+            <br><button type="submit" class="booking">Daftar</button>
+            <button type="submit" class="booking2">Masuk</button></p>
+        </div>
         <br>
-        <h4>Tertarik mengunjungi kami?</h4>
-        <p>Booking sekarang.</p>
+        <h5>Tertarik <br>
+         mengunjungi kami?</h5>
         <p>Number 4 Privet Drive, Little Whinging, Surrey.</p>
+        </div>
     </footer>
 </html>
