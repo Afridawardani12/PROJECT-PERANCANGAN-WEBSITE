@@ -9,55 +9,69 @@
             <div class="main">
                 <div class="logo">
                     <img src="logo.png">
-                </div>
                 <ul>
-                    <li><a href="#">Beranda</a></li>
+                    <li><a href="beranda.html">Beranda</a></li>
                     <li><a href="#">Tentang Kami</a></li>
-                    <li><a href="#">Wisata TOGA</a></li>
-                    <li><a href="#">Booking</a></li>
-                    <li><a href="#">Kontak</a></li>
+                    <li><a href="wisata toga.html">Wisata TOGA</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
                     <li><a href="#">Profil</a></li>
-                </ul>
-            </div>
-            <div class="nama">
-                <h1>Hogwarts Tourism</h1>
-                <h2>and Education</h2>
-                <h3>Village</h3>
+                </ul>    
+                </div>
+                <div class="nama">
+                    <h1>Hogwarts Tourism</h1>
+                    <h2>and Education</h2>
+                    <h3>Village</h3>
+                </div>
             </div>
         </header>
-        <h3>Booking</h3> 
+        <div class="ngebook"><h4>Booking</h4></div> 
         <div class="booking-box">
             <form> 
-                <input type="text" class="input" placeholder="Masukkan nama Anda">
-                <input type="email" class="input" placeholder="Masukkan email Anda"> <br>
-                <input type="file" class="input" name="file">
-                <p>Masukkan scan/foto KTP Anda.</p>
-                <input type="date" class="input" placeholder="Masukkan tanggal yang Anda inginkan">
-                <p>Masukkan tanggal yang Anda inginkan.</p> <br>
-                <label for="paket">Pilih paket yang diinginkan:</label> 
-                <select  id="paket" name="Paket wisata dan edukasi">
-                    <option>Paket Gryffindor</option>
-                    <option>Paket Slytherin</option>
-                    <option>Paket Hufflepuff</option>
-                    <option>Paket Ravenclaw</option>
-                 </select >
-                 <br>
-                 <br>
-                <label for="bayar">Pilih metode pembayaran yang diinginkan:</label> 
-                <select  id="bayar" name="Paket wisata dan edukasi">
-                    <option>Di tempat</option>
-                    <option>Transfer</option>
-                 </select >
-                 <input type="number" class="input" placeholder="Masukkan jumlah pengunjung">
-                <input type="password" class="input" placeholder="Konfirmasi password Anda">
+                <div class="booking">
+                    <input type="text" class="input" placeholder="Masukkan nama Anda">
+                    <input type="email" class="input" placeholder="Masukkan email Anda"> <br>
+                    <input type="file" class="input" name="file">
+                    <input type="date" class="input" placeholder="Masukkan tanggal yang Anda inginkan">
+                    <label for="paket"></label> 
+                    <select  id="paket" name="Paket wisata dan edukasi">
+                        <option>Paket Gryffindor</option>
+                        <option>Paket Slytherin</option>
+                        <option>Paket Hufflepuff</option>
+                        <option>Paket Ravenclaw</option>
+                     </select >
+                    <label for="bayar"></label> 
+                    <select  id="bayar" name="Paket wisata dan edukasi">
+                        <option>Di tempat</option>
+                        <option>Transfer</option>
+                     </select >
+                     <input type="number" class="input" placeholder="Masukkan jumlah pengunjung">
+                    <input type="password" class="input" placeholder="Konfirmasi password Anda">
+                </div>
+                <div class="name">
+                    <div class="nama">Nama</div>
+                    <div class="email">Email</div>
+                    <div class="foto">Foto KTP</div>
+                    <div class="tanggal">Tanggal</div>
+                    <div class="paket">Paket</div>
+                    <div class="bayar">Pembayaran</div>
+                    <div class="jumlah">Jumlah</div>
+                    <div class="pass">Password</div>
+                </div>
                 <button type="submit" class="button">Booking</button>
           </form>
         </div> 
     </body>
-    <footer>
+    <footer>        
+        <div class="booking">
+            <P>Booking sekarang untuk mendapatkan<br>penawaran terbaik!
+            <br><button type="submit" class="booking">Daftar</button>
+            <button type="submit" class="booking2">Masuk</button></P>
+        </div>
         <br>
-        <h4>Tertarik mengunjungi kami?</h4>
-        <p>Booking sekarang.</p>
+        <h5>Tertarik <br>
+         mengunjungi kami?</h5>
         <p>Number 4 Privet Drive, Little Whinging, Surrey.</p>
+        </div>
     </footer>
 </html>

@@ -29,6 +29,7 @@ ul li a{
 }
 ul li a:hover{
     color: #000000;
+    text-decoration: underline;
 }
 ul li ul li{
     display: none;
@@ -41,7 +42,6 @@ ul li ul li{
 }
 .nama h1{
     font-size: 16px;
-
 }
 .nama h2{
     font-size: 16px; 
@@ -49,47 +49,194 @@ ul li ul li{
 .nama h3{
     font-size: 16px;
 }
-h3{
+h4{
     text-align: center;
     margin-top: 50px;
+    font-size: 20px;
+}
+.ngebook{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 25px 25px;
+    font-size: 10px;
 }
 .booking-box{
-    margin: auto;
-    margin-left: 455px;
-    width: 500px;
-    top: 50%;
-    left: 50%;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 form{
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 35px;
-    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
-.input{
-     width:400px;
-     height: 40px;
-     margin-top: 20px;
-     padding-left: 10px;
-     border: 1px solid#777;
-     border-radius: 14px;
+.inputan .inputan2{
+     width:300px;
+     height: 25px;
+     margin-top: 25px;
+     padding-left: 150px;
+     padding-top: 1px;
+     border: 1px solid#c4c4c4;
+     background-color: #c4c4c4;
+     border-radius: 5px;
      outline: none;
+     margin-left: 0px;
+     line-height: 5px;
  }
+.name{
+    background-color: #d9e7c7;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-top: 1px;
+    line-height: 25px;
+    width: 150px;
+    height:280px;
+    margin-right: 0px;
+}
+.name .nama{
+    margin-top: 25px;
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name .email{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name .foto{
+    background-color:#c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name .tanggal{
+    background-color:#c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name .paket{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name .bayar{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name .jumlah{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name .pass{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
 .button{
     padding: 5px 10px;
     margin-top: 12px;
+    margin-left: 50%;
     background-color: #fbb732;
     font-size: 15px;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
-    margin-left: 170px;
+    margin-bottom: 30px;
+    width: 120px;
 }
 footer{
-    text-align: center;
     width: 100%;
-    height: 96px;
+    height: 20px;
     background-color: #5DA700 ;
+    margin-top:100px;
+}
+footer h5{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 0%;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 0%;
+}
+footer .booking{
+    float: right;
+    margin-right: 15%;
+    font-size: 20px;
+    text-align: center;
+}
+footer .booking p{
+    font-size: 15px;
     margin-top: 50px;
 }
-
-
+footer .booking p button{
+    background-color: #fbb732;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 80px;
+}
