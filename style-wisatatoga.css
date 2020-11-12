@@ -50,53 +50,18 @@ ul li ul li{
 .nama h3{
     font-size: 16px;
 }
-h4{
-    text-align: center;
-    margin-top: 50px;
-}
-.booking-box{
-    margin: auto;
-    margin-left: 455px;
-    width: 500px;
-    top: 50%;
-    left: 50%;
-}
-form{
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 35px;
-    margin-top: 10px;
-}
-.input{
-     width:400px;
-     height: 40px;
-     margin-top: 20px;
-     padding-left: 10px;
-     border: 1px solid#777;
-     border-radius: 14px;
-     outline: none;
- }
-.button{
-    padding: 5px 10px;
-    margin-top: 12px;
-    background-color: #fbb732;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    margin-left: 170px;
-}
 footer{
     width: 100%;
     height: 20px;
     background-color: #5DA700 ;
-    margin-top:50px;
+    margin-top:200px;
 }
 footer h5{
     font-size: 20px;
     text-align: center;
     margin-top: 40px;
     margin-left: 0%;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 footer p{
     font-size: 10px;
@@ -104,4 +69,22 @@ footer p{
     margin-bottom: 50px;
     margin-left: 0%;
 }
-
+footer .booking{
+    float: right;
+    margin-right: 15%;
+    font-size: 20px;
+    text-align: center;
+}
+footer .booking p{
+    font-size: 15px;
+    margin-top: 50px;
+}
+footer .booking p button{
+    background-color: #fbb732;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 80px;
+}
