@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 header{
     width: 100%;
-    height: 70px;
+    height: 80px;
     background-color: #5DA700;
 }
 .logo img{
@@ -15,8 +15,9 @@ header{
     margin-left: 20px;
 }
 ul{
+    float: right;
     list-style-type: none;
-    margin-top:15px;  
+    margin-top:25px;  
 }
 ul li{
     display: inline-block;
@@ -24,14 +25,30 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #ffff;
-    padding: 5px 20px;
-    margin-top: -50px;
+    padding: 5px 20px;  
 }
 ul li a:hover{
     color: #000000;
+    text-decoration: underline;
 }
 ul li ul li{
     display: none;
+}
+.nama{
+    margin-left: 100px;
+    color: #ffff;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.nama h1{
+    font-size: 16px;
+
+}
+.nama h2{
+    font-size: 16px; 
+}
+.nama h3{
+    font-size: 16px;
 }
 .mendaftar{
     text-align: center;
@@ -44,24 +61,40 @@ ul li ul li{
 }
 .daftar-box{
     margin-left: 33%;
-    margin-right: 33%;
+    margin-right: 50%;
 }
 form{
     margin-bottom: 0px;
     margin-top: 0px;
+    margin-left: 0%;
 }
-.inputan .input{
-     width:300px;
+.inputan {
+     width:500px;
      height: 25px;
-     margin-top: 25px;
      padding-left: 150px;
-     padding-top: 1px;
-     border: 1px solid#c4c4c4;
-     background-color: #c4c4c4;
+     padding-top: 0px;
+     border: 1px solid#ffffff;
+     background-color: #ffffff;
      border-radius: 5px;
      outline: none;
      margin-left: 0px;
      line-height: 5px;
+ }
+ .inputan .i{
+     width: 400px;
+     background-color: #ffff;
+     height: 200px;
+     margin-top: 35px;
+     margin-left: 20px;
+ }
+ .inputan .i input{
+     background-color: #c4c4c4;
+     border: 1px solid#c4c4c4;
+     width: 400px;
+     height: 30px;
+     margin-top: 18px;
+     text-align: center;
+     border-radius: 5px;
  }
 .name{
     background-color: #d9e7c7;
@@ -73,7 +106,7 @@ form{
     height:280px;
     margin right: 0px;
 }
-.name .nama{
+.name .namaa{
     margin-top: 25px;
     background-color: #c4c4c4;
     font-size: 15px;
@@ -115,7 +148,7 @@ form{
     padding: 5px;
     margin-left: 10px;
     width: 120px;
-    height: 20px;
+    height: 25px;
     border-radius: 5px;
     margin-top: 0px;
     margin-bottom: 15px;
@@ -133,24 +166,58 @@ form{
     margin-bottom: 15px;
     text-align: center;
 }
-.button{
+.daftar li a{
     padding: 5px 10px;
     margin-top: 12px;
-    margin-left: 50%;
     background-color: #fbb732;
     font-size: 15px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     margin-bottom: 30px;
-    width: 120px;
+    margin-left: 50%;
+    text-decoration: none;
+    font-weight: bold;
 }
 footer{
-    text-align: center;
     width: 100%;
-    height: 96px;
+    height: 20px;
     background-color: #5DA700 ;
-    margin-top: 0px;
+    margin-top: 100px;
 }
-
+footer h5{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 27.5%;
+    margin-bottom: 2%;
+}
+footer .booking{
+    float: right;
+    margin-right: 25%;
+    font-size: 20px;
+    text-align: center;
+}
+footer .booking p{
+    font-size: 15px;
+    margin-top: 50px;
+}
+footer .booking li a{
+    background-color: #fbb732;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 70px;
+    text-decoration: none;
+    width: 80px;
+}
 

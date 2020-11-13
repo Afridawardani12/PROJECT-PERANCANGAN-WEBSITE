@@ -29,7 +29,7 @@ ul li a{
 }
 ul li a:hover{
     color: #000000;
-    text-decoration: underline;
+    text-deco
 }
 ul li ul li{
     display: none;
@@ -53,29 +53,148 @@ ul li ul li{
 h4{
     text-align: center;
     margin-top: 50px;
+    font-size: 38px;
+    letter-spacing: 2px;
 }
 .booking-box{
-    margin: auto;
-    margin-left: 455px;
-    width: 500px;
-    top: 50%;
-    left: 50%;
+
+    width: 50%;
 }
 form{
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 35px;
-    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0%;
+    width: 100%;
 }
-.input{
-     width:400px;
-     height: 40px;
-     margin-top: 20px;
-     padding-left: 10px;
-     border: 1px solid#777;
-     border-radius: 14px;
-     outline: none;
- }
+.masuk{
+    margin-left: 0px;
+    width: 200px;
+}
+.masuk .masuk1{
+    margin-top: 25px;
+    height: 20px;
+    width: 500px;
+    padding: 10px;
+}
+.masuk .masuk1 p{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.masuk .masuk1 input{
+    width: 300px;
+    background-color: #c4c4c4;
+    height: 30px;
+    margin-top: 27.5px;
+    border-radius: 5px;
+}
+.masuk .masuk1 select{
+    width: 150px;
+    background-color: #c4c4c4;
+    height: 30px;
+    margin-top: 16px;
+    border-radius: 5px;
+    margin-right: 150px;
+}
+.name{
+    background-color: #d9e7c7;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    line-height: 25px;
+    width: 260px;
+    height:540px;
+    margin-right: 350px;
+}
+.name .namaa{
+    margin-top: 25px;
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.name .email{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.name .ktp{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.name .tgl{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.name .paket{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.name .byr{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.name .jumlah{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.name .pass{
+    background-color: #c4c4c4;
+    font-size: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+}
 .button{
     padding: 5px 10px;
     margin-top: 12px;
@@ -85,23 +204,47 @@ form{
     cursor: pointer;
     margin-left: 170px;
 }
+.button a{
+    text-decoration: none;
+}
 footer{
     width: 100%;
     height: 20px;
     background-color: #5DA700 ;
-    margin-top:50px;
+    margin-top: 100px;
 }
 footer h5{
     font-size: 20px;
     text-align: center;
     margin-top: 40px;
-    margin-left: 0%;
-    margin-bottom: 0px;
+    margin-left: 25%;
+    margin-bottom: 10px;
 }
 footer p{
     font-size: 10px;
     text-align: center;
-    margin-bottom: 50px;
-    margin-left: 0%;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 27.5%;
+    margin-bottom: 2%;
 }
-
+footer .booking{
+    float: right;
+    margin-right: 25%;
+    font-size: 20px;
+    text-align: center;
+}
+footer .booking p{
+    font-size: 15px;
+    margin-top: 50px;
+}
+footer .booking li a{
+    background-color: #fbb732;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 70px;
+    text-decoration: none;
+    width: 80px;
+}
