@@ -29,7 +29,7 @@ ul li a{
 }
 ul li a:hover{
     color: #000000;
-    text-deco
+    text-decoration: underline;
 }
 ul li ul li{
     display: none;
@@ -51,10 +51,11 @@ ul li ul li{
     font-size: 16px;
 }
 h4{
+    font-size: 30px;
     text-align: center;
+    letter-spacing: 3px;
     margin-top: 50px;
-    font-size: 38px;
-    letter-spacing: 2px;
+    margin-bottom: 30px; 
 }
 .booking-box{
 
