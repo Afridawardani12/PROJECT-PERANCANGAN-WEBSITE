@@ -126,7 +126,7 @@ form{
     margin-bottom: 15px;
     text-align: center;
 }
-.masuk li a{
+.masuk{
     padding: 5px 10px;
     margin-top: 12px;
     background-color: #fbb732;
@@ -136,7 +136,7 @@ form{
     cursor: pointer;
     margin-bottom: 30px;
     width: 120px;
-    margin-left: 50%;
+    margin-left: 46%;
     text-decoration: none;
     font-weight: bold;
 }
@@ -144,7 +144,7 @@ footer{
     width: 100%;
     height: 20px;
     background-color: #5DA700 ;
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 footer h5{

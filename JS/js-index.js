@@ -1,0 +1,1 @@
+alert ("Halo! \n Selamat datang di website Desa Wisata Hogwarts!");

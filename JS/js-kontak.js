@@ -1,0 +1,1 @@
+alert ("Halo! \n Halaman ini memuat semua kontak kami yang Anda dapat hubungi.");
