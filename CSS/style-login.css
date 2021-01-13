@@ -187,7 +187,7 @@ footer .booking li a{
     width: 80px;    
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1150px){
     header{
         margin-bottom: 10px;
     }
