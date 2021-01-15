@@ -177,14 +177,14 @@ form{
     text-decoration: none;
     font-weight: bold;
 }
-
 footer{
-    width: 100%;
+    width: 2000px;
     height: 20px;
     background-color: #5DA700 ;
     margin-top: 100px;
-
+    display: none;
 }
+
 footer h5{
     font-size: 20px;
     text-align: center;
