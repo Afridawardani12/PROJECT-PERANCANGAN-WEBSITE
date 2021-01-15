@@ -242,22 +242,5 @@ footer .booking li a{
         margin: 0;
     }
 }
-@media (min-width:200px) and (max-width:700px){
-    footer .booking p{
-        width: 100%;
-    }
-    footer .booking li{
-        width: 100%;
-        margin: 0;
-    }
-    footer h5{
-        padding: 0;
-        width: 100%;
-        margin: 0;
-    }
-    footer p{
-        width: 100%;
-        margin: 0;
-    }
-}
+
     
